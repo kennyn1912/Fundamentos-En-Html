@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TABLAS</title>
+    <style>
+        table{
+            font-family: sans-serif;
+            border: 2px solid gray;
+            border-collapse: collapse;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        col:nth-child(1) {
+            background-color: aqua;
+        }
+        col:nth-child(2){
+            background-color: red;
+        }
+        th,td{
+            border: 2px solid grey;
+            padding: .5rem;
+        }
+        tr:nth-child(4) td:nth-child(2) {
+            background-color: aquamarine;
+            letter-spacing: 90px;
+            padding-left: 50px;
+            text-transform: uppercase;
+
+        }
+        td:first-child,th,tfoot{
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <!---
+    TABLE etiqueta que encierra una tabla
+TR tabla row, etiqueta que construye una fila
+TD tabla que construye una celda
+CAPTION establece los titulos de una tabla
+THEAD establece las cabeceras de las tablas-->
+    <h1>Tablas</h1>
+    <table>
+        <caption>HORARIO DE CLASES</caption>
+        <colgroup>
+            <col>
+            <col>
+            
+            
+            
+           
+        </colgroup>
+        <thead>
+            <tbody>
+            <tr>
+                <th></th>
+                <th>LU</th>
+                <th>M</th>
+                <th>MI</th>
+                <th>J</th>
+                <th>V</th>
+            </tr>
+        </thead>
+        <tr>
+            <td>8:30 - 9:30</td>
+            <td>MATEMATICAS</td>
+            <td>MATEMATICAS</td>
+            <td>SOCIALES</td>
+            <td>MATEMATICAS</td>
+            <td>MATEMATICAS</td>
+        </tr>
+        <tr>
+            <td>8:30 - 9:30</td>
+            <td>MATEMATICAS</td>
+            <td>MATEMATICAS</td>
+            <td>SOCIALES</td>
+            <td>MATEMATICAS</td>
+            <td>MATEMATICAS</td>
+        </tr>
+        <tr>
+            <td>8:30 - 9:30</td>
+            <td>MATEMATICAS</td>
+            <td>MATEMATICAS</td>
+            <td>SOCIALES</td>
+            <td>MATEMATICAS</td>
+            <td>MATEMATICAS</td>
+        </tr>
+        <tr>
+            <td>8:30 - 9:30</td>
+            <td colspan="5">RECREO</td>
+            
+        </tr>
+        <tr>
+            <td>8:30 - 9:30</td>
+            <td>MATEMATICAS</td>
+            <td>MATEMATICAS</td>
+            <td>SOCIALES</td>
+            <td>MATEMATICAS</td>
+            <td>MATEMATICAS</td>
+        </tr>
+        <tr>
+            <td>8:30 - 9:30</td>
+            <td>MATEMATICAS</td>
+            <td>MATEMATICAS</td>
+            <td>SOCIALES</td>
+            <td>MATEMATICAS</td>
+            <td>MATEMATICAS</td>
+        </tr>
+        <tr>
+            <td>8:30 - 9:30</td>
+            <td>MATEMATICAS</td>
+            <td>MATEMATICAS</td>
+            <td>SOCIALES</td>
+            <td>MATEMATICAS</td>
+            <td>MATEMATICAS</td>
+        </tr>
+        <tr>
+            <td>8:30 - 9:30</td>
+            <td>MATEMATICAS</td>
+            <td>MATEMATICAS</td>
+            <td>SOCIALES</td>
+            <td>MATEMATICAS</td>
+            <td>MATEMATICAS</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tfoot>
+            <tr>
+                <td colspan="5">Total Asignaturas</td>
+                <td >12</td>
+            </tr>
+        </tfoot>
+
+    </tfoot>
+    </table>
+
+    
+</body>
+</html>
